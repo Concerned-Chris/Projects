@@ -1,0 +1,114 @@
+<mat-card>
+  <mat-card-content class="search-bar">
+    <mat-form-field
+      appearance="fill"
+      hideRequiredMarker="false"
+      floatLabel="auto"
+      style="width: 420px !important"
+    >
+      <mat-label>Zum Suchen eines Projektes Name eingeben</mat-label>
+      <input
+        id="searchQuery"
+        type="text"
+        [formControl]="searchQueryForm"
+        matInput
+        placeholder="z.B. HerbstluftWM"
+        (keyup.enter)="getProjects()"
+      />
+    </mat-form-field>
+  </mat-card-content>
+</mat-card>
+
+<mat-card style="padding-bottom: 4%">
+  <!-- Sorting -->
+  <mat-card-title
+    >Sortiere Projekte<mat-icon
+      matTooltip="Bitte wählen Sie mindestens eine Kategorie und ein Sortierkriterium"
+      style="position: relative; top: 2px; left: 5px"
+      color="primary"
+    >
+      info
+    </mat-icon></mat-card-title
+  >
+
+  <div style="font-size: large">Kategorie:</div>
+  <mat-card-content
+    style="background-color: white; height: 5%; padding-left: 3%"
+  >
+    <mat-chip-list selectable multiple [formControl]="chipsControl">
+      <mat-chip
+        #chip="matChip"
+        (click)="chip.toggleSelected(true)"
+        *ngFor="let option of chipOptions"
+        [value]="option"
+      >
+        <!-- <mat-icon *ngIf="chip.selected" color="accent">check</mat-icon> -->
+        {{ option }}
+      </mat-chip>
+    </mat-chip-list>
+  </mat-card-content>
+
+  <div style="font-size: large">Sortierkriterium:</div>
+  <mat-card-content
+    style="background-color: white; height: 100px; padding-left: 3%"
+  >
+    <mat-radio-group
+      aria-labelledby="example-radio-group-label"
+      class="example-radio-group"
+      [formControl]="searchCriteria"
+    >
+      <mat-radio-button
+        class="example-radio-button"
+        *ngFor="let item of availableSearchCriteria"
+        [value]="item"
+      >
+        {{ item }}
+      </mat-radio-button>
+    </mat-radio-group>
+  </mat-card-content>
+  <mat-card-content
+    style="
+      background-color: white;
+      padding-bottom: 1.5%;
+      border-bottom: 2px solid lightgray;
+    "
+  >
+    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap>
+      <button
+        mat-raised-button
+        [disabled]="
+          chipsControl.value.length == 0 || searchCriteria.value.length == 0
+        "
+        (click)="getProjects()"
+      >
+        Sortieren
+      </button>
+    </div>
+  </mat-card-content>
+  <!-- END Sortierung -->
+
+  <!-- Paginator and Repositories -->
+  <mat-card-content>
+    <mat-paginator
+      #paginator
+      [length]="projects.totalElements"
+      [pageSize]="pageSize"
+      [pageSizeOptions]="pageSizeOptions"
+      (page)="updatePagination($event)"
+    >
+      >
+    </mat-paginator>
+
+    <ng-container *ngIf="projects.content.length > 0; else no_projects">
+      <div fxLayout="row wrap" fxLayoutAlign="center end">
+        <div fxLayoutAlign="center end" *ngFor="let proj of projects.content">
+          <app-repository [project]="proj"></app-repository>
+        </div>
+      </div>
+    </ng-container>
+    <ng-template #no_projects>
+      <p class="no-projects">Keine Projekte gefunden.</p>
+    </ng-template>
+  </mat-card-content>
+  <!-- END Paginator and Repositories -->
+</mat-card>

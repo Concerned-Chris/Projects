@@ -1,0 +1,47 @@
+before_script:
+  - docker info
+
+build_docker:
+  stage: build
+  image: docker:dind
+  tags:
+    -  docker-build
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build --network=host -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+  when: on_success
+  variables:
+    GIT_SSL_NO_VERIFY: "true"
+    GIT_SUBMODULE_STRATEGY: recursive
+
+test_docker:
+  stage: test
+  tags:
+    - Docker
+  image:
+    name: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+    entrypoint: [""]
+  before_script: []
+  script:
+    - mvn test
+  when: on_success
+  variables:
+    GIT_SSL_NO_VERIFY: "true"
+
+deploy_docker:
+  stage: deploy
+  image: docker:dind
+  tags:
+    - docker-build
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build --network=host -t $CI_REGISTRY_IMAGE .
+    - docker push $CI_REGISTRY_IMAGE
+  when: on_success
+  variables:
+    GIT_SSL_NO_VERIFY: "true"
+    GIT_SUBMODULE_STRATEGY: recursive
+  only:
+    refs:
+      - master

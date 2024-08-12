@@ -1,0 +1,41 @@
+<!-- stats -->
+<mat-card>
+  <mat-grid-list cols="2" rowHeight="20:12" gutterSize="1em">
+    <mat-grid-tile>
+      <div fxLayout="column" fxLayoutAlign="center center" class="chart">
+        <mat-card-title>{{ chartNames[0] }}</mat-card-title>
+        <canvas id="importantChecks"></canvas>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div fxLayout="column" fxLayoutAlign="center center" class="chart">
+        <mat-card-title>{{ chartNames[1] }}</mat-card-title>
+        <canvas id="importantChecksPercentage"></canvas>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div fxLayout="column" fxLayoutAlign="center center" class="chart">
+        <mat-card-title>{{ chartNames[2] }}</mat-card-title>
+        <canvas id="checksPerCategorie"></canvas>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div fxLayout="column" fxLayoutAlign="center center" class="chart">
+        <mat-card-title>{{ chartNames[3] }}</mat-card-title>
+        <canvas id="checksPerCategoriePercentage"></canvas>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</mat-card>
+<!-- END stats -->
+
+<!-- csv export -->
+<mat-card style="padding-bottom: 4%">
+  <mat-card-content class="csv-export">
+    Alle Ergebnisse als .csv exportieren:
+    <a mat-raised-button download href="{{ csvExportLink }}" color="primary">
+      Download
+    </a>
+  </mat-card-content>
+</mat-card>
+<!-- END csv export -->

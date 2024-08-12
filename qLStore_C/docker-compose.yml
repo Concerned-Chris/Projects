@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  query_log_store:
+    build: .
+    image: qLStore:0.1
+    ports:
+      - "9000:9090"

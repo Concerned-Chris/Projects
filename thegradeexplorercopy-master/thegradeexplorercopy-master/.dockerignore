@@ -1,0 +1,21 @@
+# git Files
+.git
+.gitignore
+
+# environment
+.idea
+
+# License and readme
+LICENSE.md
+README.md
+
+# Docker stuff
+docker-compose.yml
+
+# Compiled class file
+*.class
+
+# Binaries
+node_modules
+target
+

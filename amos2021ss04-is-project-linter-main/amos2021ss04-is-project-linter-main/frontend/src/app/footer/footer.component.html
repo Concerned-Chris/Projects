@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row class="line">
+    <span>Bei Rückfragen oder Feedback Mail an:</span>
+    <span class="spacer"></span>
+    <span>Powered by ACIDIC</span>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="line">
+    <span *ngIf="config">
+      <a mat-button href="mailto:{{ config.settings.feedbackMail }}">
+        <mat-icon>email</mat-icon>
+        {{ config.settings.feedbackMail }}
+      </a>
+    </span>
+    <span class="spacer"></span>
+    <span>
+      <a
+        mat-button
+        href="https://github.com/amosproj/amos-ss2021-is-project-linter"
+        target="_blank"
+      >
+        <mat-icon>code</mat-icon>
+        GitHub
+      </a>
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>

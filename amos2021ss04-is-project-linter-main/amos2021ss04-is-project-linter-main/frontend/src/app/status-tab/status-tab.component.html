@@ -1,0 +1,24 @@
+<mat-card style="padding-bottom: 10%">
+  <mat-card-title>Status des Crawlers</mat-card-title>
+  <mat-card-content>
+    <p>
+      {{ status.status }}
+    </p>
+    <p *ngIf="status.lastError && status.lastError != ''" style="color: red">
+      {{ status.lastError }}
+    </p>
+    <mat-progress-bar
+      mode="determinate"
+      [value]="(status.lintingProgress * 100) / status.size"
+      style="height: 8px"
+    ></mat-progress-bar>
+    <p>Dauer des letzten Durchlaufs: {{ status.lintingTime }} Sekunden</p>
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  Crawler manuell starten:
+  <button mat-raised-button color="primary" (click)="startCrawler()">
+    Los
+  </button>
+</mat-card>

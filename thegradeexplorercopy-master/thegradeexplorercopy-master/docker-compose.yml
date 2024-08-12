@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  the_grade_explorer:
+    build: .
+    image: tge:0.1
+    ports:
+      - "8000:8080"

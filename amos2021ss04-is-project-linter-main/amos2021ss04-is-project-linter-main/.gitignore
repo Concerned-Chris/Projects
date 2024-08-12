@@ -1,0 +1,18 @@
+# logs
+*log.txt
+*.log
+logs
+
+# env files
+*.env
+
+# ide files
+.vscode
+.idea
+
+# os files
+.DS_Store
+*.swp
+*.tmp
+
+node_modules/

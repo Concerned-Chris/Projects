@@ -1,0 +1,7 @@
+<rdf:RDF
+    xmlns:nameSpace="http://path1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://path1/root">
+    <nameSpace:P>Hallo Welt</nameSpace:P>
+  </rdf:Description>
+</rdf:RDF>

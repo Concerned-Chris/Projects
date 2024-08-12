@@ -1,0 +1,198 @@
+{
+  "settings": {
+    "gitLabHost": "https://gitlab.cs.fau.de",
+    "feedbackMail": "amoslinter@example.com",
+    "readMeLinks": [
+      "https://this.website.com/doesntexist",
+      "https://that.doesnt.either"
+    ],
+    "crawler": {
+      "scheduler": "0 0 0 * * ?",
+      "status": {
+        "init": "GitLab API wird angefragt",
+        "active": "Crawler läuft",
+        "inactive": "Crawler ist inaktiv",
+        "cache": "Caches werden kompiliert"
+      },
+      "maxProjects": 20
+    },
+    "mostImportantChecks": [
+      3,
+      5,
+      10
+    ]
+  },
+  "checks": {
+    "CheckReadmeExistence": {
+      "enabled": true,
+      "severity": "HIGH",
+      "description": "Überprüft, ob eine README Datei existiert.",
+      "message": "Keine README Datei gefunden!",
+      "fix": "Legen Sie eine README Datei in der Projektwurzel an.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 1
+    },
+    "CheckContributingExistence": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob eine CONTRIBUTING Datei existiert.",
+      "message": "Keine CONTRIBUTING Datei gefunden!",
+      "fix": "Legen Sie eine CONTRIBUTING Datei in der Projektwurzel an.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 7
+    },
+    "HasMergeRequestEnabled": {
+      "enabled": true,
+      "severity": "LOW",
+      "description": "Überprüft, ob Merge Requests erlaubt sind.",
+      "message": "Merge requests sind nicht erlaubt!",
+      "fix": "Ändern Sie die Einstellungen des Repositories um Merge Requests zu erlauben.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 6
+    },
+    "HasIssuesEnabled": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob Issues aktiviert sind.",
+      "message": "Issues sind nicht aktiviert!",
+      "fix": "Ändern Sie die Einstellungen des Repositories um Issues zu aktivieren.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 5
+    },
+    "IsPublic": {
+      "enabled": true,
+      "severity": "HIGH",
+      "description": "Überprüft, ob das Repository öffentlich ist.",
+      "message": "Das Repository ist nicht öffentlich!",
+      "fix": "Ändern Sie die Einstellungen des Repositories um es öffentlich zu machen.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 2
+    },
+    "GitlabWikiDisabled": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob das Repository Wiki Pages nutzt.",
+      "message": "Das Repository nutzt Wiki Pages!",
+      "fix": "Ändern Sie die Einstellungen des Repositories um Wiki Pages zu deaktivieren.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 19
+    },
+    "HasForkingEnabled": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob Forks erlaubt sind.",
+      "message": "Das Repository erlaubt keine Forks!",
+      "fix": "Ändern Sie die Einstellungen des Repositories um Forks zu erlauben.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 8
+    },
+    "HasAvatar": {
+      "enabled": true,
+      "severity": "LOW",
+      "description": "Überprüft, ob das Repository ein Avatar (Bild) hat.",
+      "message": "Das Repository hat keinen Avatar!",
+      "fix": "Fügen Sie einen Avatar hinzu.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 18
+    },
+    "HasDescription": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob das Repository eine Beschreibung hat.",
+      "message": "Das Repository hat keine Beschreibung!",
+      "fix": "Fügen Sie eine Beschreibung hinzu.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 3
+    },
+    "HasSquashingDisabled": {
+      "enabled": false,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob squashing commits deaktiviert sind",
+      "message": "Squashing commits sind erlaubt",
+      "fix": "Ändern Sie die Einstellungen des Repositories um squash commits zu verbieten.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 9
+    },
+    "GuestRoleDisabled": {
+      "enabled": true,
+      "severity": "LOW",
+      "description": "Überprüft, ob die Guest Rolle deaktiviert ist.",
+      "message": "Das Repository hat die Guest Rolle aktiviert!",
+      "fix": "Ändern Sie die Einstellungen des Repositories um Guests zu verbieten.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 17
+    },
+    "DeveloperRoleDisabled": {
+      "enabled": true,
+      "severity": "LOW",
+      "description": "Überprüft, ob die Developer Rolle deaktiviert ist.",
+      "message": "Das Repository hat die Developer Rolle aktiviert!",
+      "fix": "Ändern Sie die Einstellumgen des Repositories um Developer zu verbieten.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 16
+    },
+    "HasBadges": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob das Projekt 'Badges' verwendet.",
+      "message": "Im Repository wurden keine Badges gefunden!",
+      "fix": "Fügen Sie Badges für z. B. den Build status in den Projekteigenschaften hinzu.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 10
+    },
+    "CheckReadmeHasLinks": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob in der Readme eine Verlinkung zu Confluence oder anderen Dokus eingetragen ist.",
+      "message": "Keine Verlinkung zu Confluence oder online.bk.datev.de/documentation gefunden!",
+      "fix": "Fügen Sie die benötigte Verlinkung in die Readme ein.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 11
+    },
+    "CheckReadmeHasPicture": {
+      "enabled": true,
+      "severity": "LOW",
+      "description": "Überprüft, ob sich in der Readme ein Bild befindet.",
+      "message": "Kein Bild in Readme gefunden!",
+      "fix": "Fügen Sie ein Bild zur verschönerung der Readme ein.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 12
+    },
+    "CheckNoContributingChain": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, dass sich in der CONTRIBUTING-Datei keine links auf andere CONTRIBUTING-Dateien befinden.",
+      "message": "Es wurde ein Link zu einer andere CONTRIBUTING.MD gefunden!",
+      "fix": "Entfernen Sie die Verlinkung zu der anderen CONTRIBUTING.MD.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 13
+    },
+    "HasServiceDeskDisabled": {
+      "enabled": true,
+      "severity": "LOW",
+      "description": "Überprüft, ob der Service Desk deaktiviert ist oder nicht.",
+      "message": "Service Desk ist aktiviert!",
+      "fix": "Deaktivieren Sie Service Desk in ihrem Projekt.",
+      "tag": "Maintainerfreundlichkeit",
+      "priority": 14
+    },
+    "EitherOwnersOrMaintainersExist": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob eine MAINTAINERS.md oder OWNERS.md Datei existiert.",
+      "message": "Keine MAINTAINERS.md oder OWNERS.md Datei gefunden!",
+      "fix": "Legen Sie eine MAINTAINERS.md oder OWNERS.md Datei in der Projektwurzel an.",
+      "tag": "Entwicklerfreundlichkeit",
+      "priority": 15
+    },
+    "NotDefaultReadme": {
+      "enabled": true,
+      "severity": "MEDIUM",
+      "description": "Überprüft, ob die README Datei die Default-Readme ist.",
+      "message": "Die Readme ist die Default-Readme!",
+      "fix": "Legen Sie eine README Datei in der Projektwurzel an, die nicht automatisch generiert wurde.",
+      "tag": "Benutzerfreundlichkeit",
+      "priority": 4
+    }
+  }
+}

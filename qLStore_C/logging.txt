@@ -1,0 +1,2 @@
+start
+[com.vaadin.flow.component.grid.Grid$Column@7f3a6403, com.vaadin.flow.component.grid.Grid$Column@7660a79a, com.vaadin.flow.component.grid.Grid$Column@11e28276]queryIdentifiersimilarityRatesimilarityTyp
