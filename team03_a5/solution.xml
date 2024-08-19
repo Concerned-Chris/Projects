@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Solutions>
+  <Solution id="1">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Acubaleska.biljana</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Alukacs.gabor</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Anolker.claudia</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Apoguntke.werner</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Arenner.gabor</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Arieke.andreas</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aritter.helge-j</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Avarady.tamas</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Awolter.franz-erich</value>
+    <query>SELECT DISTINCT ?aut WHERE {?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; 'hermann.thomas'. ?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; ?aut} ORDER BY ?aut</query>
+  </Solution>
+  <Solution id="2">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aalzalg.baha-m</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abegashaw.negash</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aberlyand.leonid-v</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Acacho.c</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Adavidon.william-c</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Afelt.andrew-j</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ajiang.p-l</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Alau.d-t-m</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amckennon.k-d</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amifflin.r-b</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Anazareth.john-lawrence</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Apanchenko.alexander-n</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atabor.wayne-l</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atempelton.j-g-c</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atempleton.james-g-c</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Azhu.yuntao</value>
+    <query>SELECT DISTINCT ?aut WHERE {?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; 'ariyawansa.k-a'. ?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; ?aut} ORDER BY ?aut</query>
+  </Solution>
+  <Solution id="3">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abuskens.r-w</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Acowan.donald-d</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aeades.p-d</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Agrannell.michael-john</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Agriggs.terry-s</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Akocay.william-l</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aquinn.kathleen-a-s</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Arogers.m-j</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aruet-dauteuil.e-a</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Astanton.ralph-g</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Avan-rees.john</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Awallis.walter-d</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Awirmani-prasad.anjana</value>
+  </Solution>
+  <Solution id="4">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aahlinder.sven</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aaxelsson.owe</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Alennartson.bengt</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Alindskog.gunhild</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amiddleton.richard-h</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Anordberg.t-patrik</value>
+  </Solution>
+  <Solution id="5">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aathreya.siva-r</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abirkner.matthias</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Adawson.donald-a</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aden-hollander.frank</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Afleischmann.klaus</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aformentin.marco</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Agreven.andreas</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Akotecky.roman</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amach.tibor</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aperzina.vit</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aschertzer.emmanuel</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Asokal.alan-d</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Asturm.anja-k</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Asun.rongfeng</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Avollering.florian</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Avrbensky.karel</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ayu.jinjiong</value>
+  </Solution>
+<Solution id="6">
+    <value type="paper">https://zbmath.org/?q=an%3A6151384</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "18"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "85A40"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6331282'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6983104'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6151384'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '7287660'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5834407'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="7">
+    <value type="paper">https://zbmath.org/?q=an%3A6213861</value>
+    <value type="paper">https://zbmath.org/?q=an%3A7039344</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5287721</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5587927</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1651415</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6213853</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3558983</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6985778</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6365904</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3347633</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "20K"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "68T"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6213861'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '7039344'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5287721'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5587927'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1651415'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6213853'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3558983'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6985778'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6365904'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3347633'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="8">
+    <value type="paper">https://zbmath.org/?q=an%3A2026781</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5619588</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1058022</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3994944</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3951913</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3843091</value>
+    <value type="paper">https://zbmath.org/?q=an%3A989628</value>
+    <value type="paper">https://zbmath.org/?q=an%3A953080</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5300302</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5023597</value>
+    <value type="paper">https://zbmath.org/?q=an%3A27009</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1313057</value>
+    <value type="paper">https://zbmath.org/?q=an%3A702105</value>
+    <value type="paper">https://zbmath.org/?q=an%3A961892</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5815507</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1205652</value>
+    <value type="paper">https://zbmath.org/?q=an%3A663855</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1222749</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1578163</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1178276</value>
+    <value type="paper">https://zbmath.org/?q=an%3A568550</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4035034</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1239870</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5321552</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1573092</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4100512</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1648666</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6083730</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4030864</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5275188</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1026556</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5615473</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6725616</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1217306</value>
+    <value type="paper">https://zbmath.org/?q=an%3A651892</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2056082</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4135328</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1464512</value>
+    <value type="paper">https://zbmath.org/?q=an%3A966609</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1923105</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1882284</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1398829</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2191921</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1664541</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5245753</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1059879</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6036074</value>
+    <value type="paper">https://zbmath.org/?q=an%3A647621</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1124708</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2128838</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1058021</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1560924</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4045047</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2032322</value>
+    <value type="paper">https://zbmath.org/?q=an%3A804625</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3997058</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3919669</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5998513</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4007624</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4192976</value>
+    <value type="paper">https://zbmath.org/?q=an%3A149894</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1899859</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4123191</value>
+    <value type="paper">https://zbmath.org/?q=an%3A177005</value>
+    <value type="paper">https://zbmath.org/?q=an%3A34489</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3997060</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3883535</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1584697</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1545659</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5068665</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4001371</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5294644</value>
+    <value type="paper">https://zbmath.org/?q=an%3A871807</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1552423</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3828353</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1101509</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1086306</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1205668</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5581927</value>
+    <value type="paper">https://zbmath.org/?q=an%3A681438</value>
+    <value type="paper">https://zbmath.org/?q=an%3A978471</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1787750</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1569042</value>
+    <value type="paper">https://zbmath.org/?q=an%3A769961</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3634769</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3858897</value>
+    <value type="paper">https://zbmath.org/?q=an%3A970255</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "65"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "34A34"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "80"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1796810'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2026781'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5619588'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6725659'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1058022'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5946024'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3994944'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5485267'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5818536'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1566007'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3951913'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3843091'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2217912'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '989628'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '953080'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5300302'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5023597'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '27009'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1313057'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1776606'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '702105'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1566010'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '961892'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2217913'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5815507'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '703993'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1205652'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '663855'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1657456'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1222749'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1578163'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2083811'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5146225'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1848641'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1178276'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '568550'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4035034'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1239870'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5321552'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1573092'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1438801'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1787723'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1201036'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6603367'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1311265'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1161476'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4100512'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1648666'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6083730'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '7005133'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4030864'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1443570'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5275188'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1026556'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1684087'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5020863'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6053800'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1067245'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5615473'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5530704'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6725616'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1217306'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '651892'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6486284'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2056082'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4135328'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1464512'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1240629'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5231809'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2247543'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '966609'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1923105'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1882284'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1398829'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2191921'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1487428'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1664541'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1490955'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5245753'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1059879'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6036074'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6648478'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5257955'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '647621'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6379914'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1124708'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6032824'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2128838'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1058021'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1560924'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4045047'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2032322'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2165275'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '804625'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3997058'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5675065'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2065118'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1879373'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6391128'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3919669'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5998513'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6352501'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1376797'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5834154'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4007624'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4192976'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '149894'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1899859'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6159266'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6150604'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6086865'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4096712'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2021753'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4123191'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1934946'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '177005'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5119543'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5164869'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '34489'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5049848'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1907878'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3997060'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3883535'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6463419'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5312200'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1584697'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5222438'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1545659'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5068665'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4001371'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1672049'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5294644'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '871807'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1552423'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3828353'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6838985'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1101509'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1086306'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1205668'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5581927'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5029169'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '681438'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '978471'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1748717'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1787750'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1569042'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '769961'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1318484'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3634769'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3858897'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2009874'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '970255'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1496097'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5801016'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="9">
+    <value type="paper">https://zbmath.org/?q=an%3A750241</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1914876</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1183717</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2226187</value>
+    <value type="paper">https://zbmath.org/?q=an%3A726574</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6384555</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5070676</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1134722</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6341236</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5359575</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5920089</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5362001</value>
+    <value type="paper">https://zbmath.org/?q=an%3A7077590</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5026812</value>
+    <value type="paper">https://zbmath.org/?q=an%3A193123</value>
+    <value type="paper">https://zbmath.org/?q=an%3A732492</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3714961</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "03B52"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "68-01"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '750241'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1914876'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1183717'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2226187'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '726574'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6384555'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5070676'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1134722'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6341236'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5359575'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5920089'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5362001'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '7077590'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5026812'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '193123'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '732492'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3714961'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="10">
+    <value type="paper">https://zbmath.org/?q=an%3A6512424</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1951626</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6079495</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "33"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "68T30"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6512424'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6310774'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6446487'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6620201'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1951626'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6079495'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="11">
+    <value type="keyword">https://zbmath.org/?q=an%3Arelativity theory</value>
+    <value type="count">31</value>
+    <value type="keyword">https://zbmath.org/?q=an%3ARelativity theory</value>
+    <value type="count">11</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Aquantum theory</value>
+    <value type="count">7</value>
+    <query>SELECT ?keyword (COUNT(?keyword) AS ?count) WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; 'einstein.albert' .?s &amp;lt;http://www.aisysproj.kwarc.info/keyword&amp;gt; ?keyword. ?s &amp;lt;http://www.aisysproj.kwarc.info/publificationYear&amp;gt; ?year. FILTER (?year &amp;gt; 1920). } GROUP BY ?keyword</query>
+  </Solution>
+  <Solution id="12">
+    <value type="keyword">https://zbmath.org/?q=an%3Ahistory</value>
+    <value type="count">4</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Anumber theory</value>
+    <value type="count">3</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Amethod of least squares</value>
+    <value type="count">2</value>
+  </Solution>
+  <Solution id="13">
+    <value type="keyword">https://zbmath.org/?q=an%3Anumerical analysis</value>
+    <value type="count">12</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Acombinatorics</value>
+    <value type="count">4</value>
+    <value type="keyword">https://zbmath.org/?q=an%3ASurreal Numbers</value>
+    <value type="count">4</value>
+  </Solution>
+  <Solution id="14">
+    <value type="keyword">https://zbmath.org/?q=an%3Anumerical analysis</value>
+    <value type="count">9</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Asorting algorithm</value>
+    <value type="count">5</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Apredicate calculus</value>
+    <value type="count">3</value>
+  </Solution>
+  <Solution id="15">
+    <value type="keyword">https://zbmath.org/?q=an%3ANumerical analysis</value>
+    <value type="count">1</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Afoundations, philosophy, logic</value>
+    <value type="count">1</value>
+  </Solution>
+  <Solution id="16">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Akohlhase.michael</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6958133</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Alonsing.florian</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6778427</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Astewart.gilbert-w</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3626505</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Awilkinson.james-h</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3048293</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Anewman.max-h-a</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3106194</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aturing.alan-m</value>
+  </Solution>
+  <Solution id="17">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aknuth.donald-ervin</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3484063</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Amotzkin.theodore-s</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2521520</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Anewman.max-h-a</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3106194</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aturing.alan-m</value>
+  </Solution>
+  <Solution id="18">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aplanck.max</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2584638</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aeinstein.albert</value>
+  </Solution>
+  <Solution id="19">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Atao.terence-c</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6302036</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Abergelson.vitaly</value>
+    <value type="paper">https://zbmath.org/?q=an%3A981694</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aerdos.pal</value>
+  </Solution>
+  <Solution id="20">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Adijkstra.edsger-wybe</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1625043</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Amisra.jayadev</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3502777</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Atarjan.robert-endre</value>
+    <value type="paper">https://zbmath.org/?q=an%3A7152238</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aaronov.boris</value>
+    <value type="paper">https://zbmath.org/?q=an%3A617045</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aerdos.pal</value>
+  </Solution>
+</Solutions>

@@ -1,0 +1,71 @@
+<Solutions>
+  <Solution id="1">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Agrossmann.marcel</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Afokker.adriaan-daniel</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aminkowski.hermann</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Alorentz.hendrik-antoon</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Astern.otto</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ahopf.ludwig</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Alaub.jakob-johann</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aritz.walter</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aborn.max</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aborn.hedwig</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aweyl.hermann</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amayer.walther</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ade-sitter.willem</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Arosen.nathan</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Apodolsky.boris</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ahoffmann.banesh</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ainfeld.leopold</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abergmann.peter-gabriel</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aschrodinger.erwin</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Avon-karman.theodore</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Acourant.richard</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ajordan.pascual</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ade-broglie.louis</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Alande.alfred</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abohm.david</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aappleton.edward-victor</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Apenner.s-s</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Akaufman.bruria</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Apauli.wolfgang</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Astraus.ernst-g</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abargmann.valentine</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Acartan.elie</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Asmoluchowski-ritter-von-smolan.m</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Agrommer.jakob</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aplanck.max</value>
+    <query>...</query>
+  </Solution>
+  <Solution id="2">
+    <value type="paper">https://zbmath.org/?q=an%3A1192387</value>
+    <value type="paper">https://zbmath.org/?q=an%3A7217713</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1651415</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5081243</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5585172</value>
+    <value type="paper">https://zbmath.org/?q=an%3A647709</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5321611</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2070400</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5155089</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6092487</value>
+    <query>...</query>
+  </Solution>
+  <Solution id="3">
+    <value type="keyword">https://zbmath.org/?q=ut%3Amathematical+knowledge+management</value>
+    <value type="count">4</value>
+    <value type="keyword">https://zbmath.org/?q=ut%3Asemantics</value>
+    <value type="count">2</value>
+    <value type="keyword">https://zbmath.org/?q=ut%3Acut+elimination</value>
+    <value type="count">2</value>
+    <query>...</query>
+  </Solution>
+  <Solution id="4">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Akohlhase.michael</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5576982</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Adavenport.james-harold</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3770941</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aguy.michael-j-t</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3643271</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aerdos.pal</value>
+  </Solution>
+</Solutions>

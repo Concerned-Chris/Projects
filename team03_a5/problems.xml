@@ -1,0 +1,81 @@
+<Problems>
+    <Problem id="1" type="coauthors" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Ahermann.thomas</value>
+    </Problem>
+    <Problem id="2" type="coauthors" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aariyawansa.k-a</value>
+    </Problem>
+    <Problem id="3" type="coauthors" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aallston.jeffrey-l</value>
+    </Problem>
+    <Problem id="4" type="coauthors" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Agustafsson.ivar</value>
+    </Problem>
+    <Problem id="5" type="coauthors" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aswart.jan-m</value>
+    </Problem>
+    <Problem id="6" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A18</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A85A40</value>
+    </Problem>
+    <Problem id="7" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A20K</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A68T</value>
+    </Problem>
+    <Problem id="8" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A65</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A34A34</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A80</value>
+    </Problem>
+    <Problem id="9" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A03B52</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A68-01</value>
+    </Problem>
+    <Problem id="10" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A33</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A68T30</value>
+    </Problem>
+    <Problem id="11" type="top-3-keywords" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aeinstein.albert</value>
+        <value type="after">1920</value>
+    </Problem>
+    <Problem id="12" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Agauss.carl-friedrich</value>
+    </Problem>
+    <Problem id="13" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aknuth.donald-ervin</value>
+        <value type="before">1981</value>
+    </Problem>
+    <Problem id="14" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Adijkstra.edsger-wybe</value>
+    </Problem>
+    <Problem id="15" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aturing.alan-m</value>
+        <value type="after">1944</value>
+        <value type="before">1950</value>
+    </Problem>
+    <Problem id="16" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Akohlhase.michael</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aturing.alan-m</value>
+    </Problem>
+    <Problem id="17" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Aknuth.donald-ervin</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aturing.alan-m</value>
+    </Problem>
+    <Problem id="18" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Aplanck.max</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aeinstein.albert</value>
+    </Problem>
+    <Problem id="19" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Atao.terence-c</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aerdos.pal</value>
+    </Problem>
+    <Problem id="20" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Adijkstra.edsger-wybe</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aerdos.pal</value>
+    </Problem>
+    <Problem id="21" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Akohlhase.michael</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aknuth.donald-ervin</value>
+    </Problem>
+</Problems>

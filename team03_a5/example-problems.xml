@@ -1,0 +1,18 @@
+<Problems>
+    <Problem id="1" type="coauthors" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aeinstein.albert</value>
+    </Problem>
+    <Problem id="2" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A20</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A68T30</value>
+    </Problem>
+    <Problem id="3" type="top-3-keywords" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Akohlhase.michael</value>
+        <value type="after">1999</value>
+        <value type="before">2012</value>
+    </Problem>
+    <Problem id="4" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Akohlhase.michael</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aerdos.pal</value>
+    </Problem>
+</Problems>

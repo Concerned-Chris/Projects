@@ -1,0 +1,77 @@
+<Problems>
+    <Problem id="1" type="coauthors" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Atakahasi.sin-ei</value>
+    </Problem>
+    <Problem id="2" type="coauthors" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Agrigoryan.suren-a</value>
+    </Problem>
+    <Problem id="3" type="coauthors" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Acsordas.george</value>
+    </Problem>
+    <Problem id="4" type="coauthors" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aellis.alan-john</value>
+    </Problem>
+    <Problem id="5" type="coauthors" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Aebadian.ali</value>
+    </Problem>
+    <Problem id="6" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A16E</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A43A</value>
+    </Problem>
+    <Problem id="7" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A46J15</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A47B35</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A32A35</value>
+    </Problem>
+    <Problem id="8" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A46M</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A31</value>
+    </Problem>
+    <Problem id="9" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A40A99</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A47A</value>
+    </Problem>
+    <Problem id="10" type="msc-intersection" withquery="true">
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A11M</value>
+        <value type="msc">https://zbmath.org/classification/?q=cc%3A46J</value>
+    </Problem>
+    <Problem id="11" type="top-3-keywords" withquery="true">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Azelazko.wieslaw</value>
+        <value type="after">1980</value>
+    </Problem>
+    <Problem id="12" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Ahatori.osamu</value>
+    </Problem>
+    <Problem id="13" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Ako.eungil</value>
+        <value type="before">2010</value>
+    </Problem>
+    <Problem id="14" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Asasane.amol-j</value>
+    </Problem>
+    <Problem id="15" type="top-3-keywords" withquery="false">
+        <value type="of">https://zbmath.org/authors/?q=ai%3Amortini.raymond</value>
+        <value type="after">2000</value>
+        <value type="before">2011</value>
+    </Problem>
+    <Problem id="16" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Aaron.richard-m</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Agarcia.domingo</value>
+    </Problem>
+    <Problem id="17" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Aflattot.antoine</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Atroitsky.vladimir-g</value>
+    </Problem>
+    <Problem id="18" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Aapostol.constantin</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Afrazho.arthur-e</value>
+    </Problem>
+    <Problem id="19" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Aaleman.alexandru</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Aborichev.alexander</value>
+    </Problem>
+    <Problem id="20" type="coauth-dist" withquery="false">
+        <value type="from">https://zbmath.org/authors/?q=ai%3Asuarez.daniel</value>
+        <value type="to">https://zbmath.org/authors/?q=ai%3Atroitsky.vladimir-g</value>
+    </Problem>
+</Problems>

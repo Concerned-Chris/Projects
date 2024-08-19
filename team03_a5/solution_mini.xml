@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Solutions>
+  <Solution id="1">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ahasumi.morisuke</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ahatori.osamu</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ahirasawa.go</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ainoue.jyunji</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aishii.takashi</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Akoshimizu.hironao</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amiura.takeshi</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aniwa.norio</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aoka.hirokazu</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aokayasu.takateru</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atakagi.hiroyuki</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atakahashi.yasuji</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atanahashi.kotaro</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atsurumi.kazuyuki</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Auchiyama.atsushi</value>
+    <query>SELECT DISTINCT ?aut WHERE {?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; 'takahasi.sin-ei'. ?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; ?aut} ORDER BY ?aut</query>
+  </Solution>
+  <Solution id="2">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aakopyan.l-m</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aarzumanyan.victor-abramovich</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abatikyan.bagrat-t</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Akarakhanyan.martin-i</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Apankrateva.t-n</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Atonev.toma-v</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Azaslavskaya.m-i</value>
+    <query>SELECT DISTINCT ?aut WHERE {?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; 'grigoryan.suren-a'. ?doc &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; ?aut} ORDER BY ?aut</query>
+  </Solution>
+  <Solution id="3">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Areiter.harold-b</value>
+  </Solution>
+  <Solution id="4">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Arao.t-s-s-r-k</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aroy.ashoke-k</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aso.w-s</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Auttersrud.ulf</value>
+  </Solution>
+  <Solution id="5">
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aabolfathi.mohammad-ali</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aalimohammadi.davood</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aasgari.gholamreza</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aazadi-kenary.hassan</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Abavand-savadkouhi.meysam</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aeshaghi-gordji.madjid</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aghobadipour.norouz</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amardanbeigi.mohammad-reza</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Amedghalchi.ali-reza</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Anajafzadeh.shahram</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Aosbouei.mostafa</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Apark.choonkil</value>
+    <value type="coauthor">https://zbmath.org/authors/?q=ai%3Ashokri.abbas-ali</value>
+  </Solution>
+  <Solution id="6">
+    <value type="paper">https://zbmath.org/?q=an%3A7358492</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5867897</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2120155</value>
+    <value type="paper">https://zbmath.org/?q=an%3A7128562</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1566255</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "16E"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "43A"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '7358492'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5867897'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '2120155'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '7128562'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1566255'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="7">
+    <value type="paper">https://zbmath.org/?q=an%3A3857795</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1996443</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4105652</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1542410</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1703084</value>
+    <value type="paper">https://zbmath.org/?q=an%3A222151</value>
+    <value type="paper">https://zbmath.org/?q=an%3A19749</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1331349</value>
+    <value type="paper">https://zbmath.org/?q=an%3A4096195</value>
+    <value type="paper">https://zbmath.org/?q=an%3A845510</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1708939</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3781874</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3881338</value>
+    <value type="paper">https://zbmath.org/?q=an%3A683641</value>
+    <value type="paper">https://zbmath.org/?q=an%3A905029</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "46J15"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "47B35"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "32A35"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3857795'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1996443'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4105652'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1542410'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1703084'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '222151'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '19749'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1331349'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4096195'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '845510'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1708939'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3781874'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3881338'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '683641'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '905029'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="8">
+    <value type="paper">https://zbmath.org/?q=an%3A4054332</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3367521</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6497573</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "46M"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "31"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '4054332'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '3367521'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '6497573'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="9">
+    <value type="paper">https://zbmath.org/?q=an%3A1340276</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "40A99"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "47A"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1340276'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="10">
+    <value type="paper">https://zbmath.org/?q=an%3A7056445</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1344988</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5287940</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5944871</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5795112</value>
+    <query>SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "11M"))}
+SELECT ?id WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; ?id. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. FILTER( regex(?class, "46J"))}
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '7056445'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '1344988'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5287940'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5944871'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+SELECT ?class WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/documentId&amp;gt; '5795112'. ?s &amp;lt;http://www.aisysproj.kwarc.info/classification&amp;gt; ?class. }
+</query>
+  </Solution>
+  <Solution id="11">
+    <value type="keyword">https://zbmath.org/?q=an%3Atopological algebra</value>
+    <value type="count">6</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Ahyperinvariant subspace</value>
+    <value type="count">3</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Asemitopological algebra</value>
+    <value type="count">2</value>
+    <query>SELECT ?keyword (COUNT(?keyword) AS ?count) WHERE {?s &amp;lt;http://www.aisysproj.kwarc.info/authorId&amp;gt; 'zelazko.wieslaw' .?s &amp;lt;http://www.aisysproj.kwarc.info/keyword&amp;gt; ?keyword. ?s &amp;lt;http://www.aisysproj.kwarc.info/publificationYear&amp;gt; ?year. FILTER (?year &amp;gt; 1980). } GROUP BY ?keyword</query>
+  </Solution>
+  <Solution id="12">
+    <value type="keyword">https://zbmath.org/?q=an%3Afunction algebra</value>
+    <value type="count">5</value>
+    <value type="keyword">https://zbmath.org/?q=an%3ABanach function algebra</value>
+    <value type="count">4</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Auniform algebra</value>
+    <value type="count">4</value>
+  </Solution>
+  <Solution id="13">
+    <value type="keyword">https://zbmath.org/?q=an%3Ainvariant subspace</value>
+    <value type="count">9</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Ainvariant subspaces</value>
+    <value type="count">4</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Asubscalar operator</value>
+    <value type="count">3</value>
+  </Solution>
+  <Solution id="14">
+    <value type="keyword">https://zbmath.org/?q=an%3Amaximal ideal space</value>
+    <value type="count">5</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Atopological stable rank</value>
+    <value type="count">5</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Arobust control</value>
+    <value type="count">5</value>
+  </Solution>
+  <Solution id="15">
+    <value type="keyword">https://zbmath.org/?q=an%3Abounded analytic functions</value>
+    <value type="count">6</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Amaximal ideal space</value>
+    <value type="count">5</value>
+    <value type="keyword">https://zbmath.org/?q=an%3Ainterpolating sequences</value>
+    <value type="count">3</value>
+  </Solution>
+  <Solution id="16">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aaron.richard-m</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1867916</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Agarcia.domingo</value>
+  </Solution>
+  <Solution id="17">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aflattot.antoine</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5148343</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Achalendar.isabelle</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5518749</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Atroitsky.vladimir-g</value>
+  </Solution>
+  <Solution id="18">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aapostol.constantin</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3389753</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Afoias.ciprian</value>
+    <value type="paper">https://zbmath.org/?q=an%3A3874032</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Afrazho.arthur-e</value>
+  </Solution>
+  <Solution id="19">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aaleman.alexandru</value>
+    <value type="paper">https://zbmath.org/?q=an%3A2226539</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Ahedenmalm.hakan</value>
+    <value type="paper">https://zbmath.org/?q=an%3A515234</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Aborichev.alexander</value>
+  </Solution>
+  <Solution id="20">
+    <value type="author">https://zbmath.org/authors/?q=ai%3Asuarez.daniel</value>
+    <value type="paper">https://zbmath.org/?q=an%3A1709980</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Agorkin.pamela-b</value>
+    <value type="paper">https://zbmath.org/?q=an%3A6715716</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Achalendar.isabelle</value>
+    <value type="paper">https://zbmath.org/?q=an%3A5518749</value>
+    <value type="author">https://zbmath.org/authors/?q=ai%3Atroitsky.vladimir-g</value>
+  </Solution>
+</Solutions>
