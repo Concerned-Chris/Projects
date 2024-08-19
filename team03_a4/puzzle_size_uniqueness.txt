@@ -1,0 +1,19 @@
+ai 	   217 vars unique
+apple	   240 vars unique
+arrow 	   84  vars unique
+circle     630 vars unique i guess, too big too change
+document   841 vars not unique
+leaf       494 vars unique
+math       98  vars unique
+ornament   518 vars 
+pattern    434 vars unique
+pencil     918 vars unique
+portrait   690 vars unique
+puzzle     3128 vars
+shapes	   160 vars not unique
+snow       169 vars unique
+sternhalma 676 vars unique
+symmetric  507 vars unique
+trees      432 vars not unique
+triangle   169 vars unique
+uni        396 vars unique

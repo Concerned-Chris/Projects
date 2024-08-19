@@ -1,0 +1,5 @@
+$Command = "E:\Uni\AI1Projekt\kissat\kissat.exe"
+$Parms = "--sat circle.sat"
+
+$Parms = $Parms.Split(" ")
+& "$Command" $Parms > E:\Uni\AI1Projekt\kissat\circle.sol
